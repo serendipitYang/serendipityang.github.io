@@ -1,0 +1,16 @@
+plugins: []
+theme: null
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - .git
+  - .github
+include:
+  - _pages
+sass:
+  style: compressed
+source: .
+destination: ./_site
